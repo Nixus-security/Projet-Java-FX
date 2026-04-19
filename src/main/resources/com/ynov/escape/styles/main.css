@@ -1,0 +1,227 @@
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.menu-root {
+    -fx-background-color: linear-gradient(to bottom right, #ffd200, #1fb6ff);
+}
+
+.menu-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1a1a1a;
+    -fx-padding: 0 0 30 0;
+}
+
+.menu-button {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-padding: 10 40;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.menu-button-new {
+    -fx-background-color: #e74c3c;
+}
+
+.menu-button-new:hover {
+    -fx-background-color: #c0392b;
+}
+
+.menu-button-resume {
+    -fx-background-color: #3498db;
+}
+
+.menu-button-resume:hover {
+    -fx-background-color: #2980b9;
+}
+
+.menu-button-resume:disabled {
+    -fx-background-color: #95a5a6;
+    -fx-opacity: 0.7;
+}
+
+.menu-button-quit {
+    -fx-background-color: #7f8c8d;
+}
+
+.menu-button-quit:hover {
+    -fx-background-color: #5d6d6e;
+}
+
+.dialogue-root {
+    -fx-background-color: #2c3e50;
+}
+
+.dialogue-box {
+    -fx-background-color: rgba(255, 255, 255, 0.95);
+    -fx-background-radius: 8;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-min-height: 180;
+}
+
+.speaker-name {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.dialogue-text {
+    -fx-font-size: 15px;
+    -fx-text-fill: #34495e;
+    -fx-line-spacing: 4;
+}
+
+.primary-button {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8 24;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #2c3e50;
+}
+
+.primary-button:disabled {
+    -fx-background-color: #95a5a6;
+    -fx-opacity: 0.7;
+}
+
+.quiz-root {
+    -fx-background-color: #ecf0f1;
+}
+
+.quiz-score {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.quiz-question {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-text-alignment: center;
+    -fx-padding: 20 40;
+}
+
+.quiz-feedback {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.answer-button {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 12 20;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-min-width: 120;
+}
+
+.answer-green {
+    -fx-background-color: #27ae60;
+}
+
+.answer-blue {
+    -fx-background-color: #2980b9;
+}
+
+.answer-red {
+    -fx-background-color: #c0392b;
+}
+
+.answer-orange {
+    -fx-background-color: #e67e22;
+}
+
+.answer-button:hover {
+    -fx-opacity: 0.85;
+}
+
+.answer-button:disabled {
+    -fx-opacity: 0.6;
+}
+
+.minesweeper-root {
+    -fx-background-color: #ecf0f1;
+}
+
+.minesweeper-status {
+    -fx-font-size: 15px;
+    -fx-text-fill: #2c3e50;
+}
+
+.cell {
+    -fx-background-color: #bdc3c7;
+    -fx-background-radius: 2;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.cell:hover {
+    -fx-background-color: #95a5a6;
+}
+
+.cell-revealed {
+    -fx-background-color: #ecf0f1;
+    -fx-cursor: default;
+}
+
+.cell-bomb {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+}
+
+.cell-n1 { -fx-text-fill: #2980b9; }
+.cell-n2 { -fx-text-fill: #27ae60; }
+.cell-n3 { -fx-text-fill: #c0392b; }
+.cell-n4 { -fx-text-fill: #8e44ad; }
+.cell-n5 { -fx-text-fill: #d35400; }
+.cell-n6 { -fx-text-fill: #16a085; }
+.cell-n7 { -fx-text-fill: #2c3e50; }
+.cell-n8 { -fx-text-fill: #7f8c8d; }
+
+.mastermind-root {
+    -fx-background-color: #ecf0f1;
+}
+
+.mastermind-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.mastermind-tries {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3e50;
+}
+
+.mastermind-hint {
+    -fx-font-size: 13px;
+    -fx-text-fill: #34495e;
+    -fx-padding: 0 0 0 20;
+}
+
+.slot {
+    -fx-stroke: #7f8c8d;
+    -fx-stroke-width: 2;
+    -fx-cursor: hand;
+}
+
+.palette-dot {
+    -fx-stroke: #34495e;
+    -fx-stroke-width: 1;
+    -fx-cursor: hand;
+}
+
+.palette-dot:hover {
+    -fx-stroke-width: 3;
+}
