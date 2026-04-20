@@ -1,6 +1,6 @@
 # Java Escape — Projet Final Java B1
 
-**Auteur :** Cyril
+**Auteur :** Anthony Nagul
 **Formation :** YBOOST B1 — Ynov
 **Module :** Java / JavaFX
 
